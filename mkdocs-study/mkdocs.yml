@@ -40,7 +40,7 @@ theme:
   icon:
     repo: fontawesome/brands/github #右上角图标
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
-repo_url: https://github.com/Wcowin/mymkdocs # 右上角点击跳转的链接
+repo_url: https://github.com/YoyuEN/mkdocs-study # 右上角点击跳转的链接
 repo_name: Wcowin.github.io # 右上角的名字
 
 # [Navigtion]
@@ -85,7 +85,7 @@ copyright: Copyright &copy; 2023 王泰乐 # 左下角的版权声明
 extra:
   generator: false  #删除页脚显示“使用 MkDocs 材料制造”
   social:
-    - icon: fontawesome/douyin.com/浮迹
+    - icon: fontawesome/brands/douyin.com
       link: https://www.douyin.com/user/MS4wLjABAAAAKcZCSjWyBPtIsRzjYO92f9-Zrr3LKr06RwzHFRgUqMw
     - icon: fontawesome/brands/github
       link: https://github.com/YoyuEN
