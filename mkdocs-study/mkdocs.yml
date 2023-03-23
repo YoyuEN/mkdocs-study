@@ -44,15 +44,14 @@ repo_url: https://github.com/YoyuEN/mkdocs-study # 右上角点击跳转的链�
 repo_name: Wcowin.github.io # 右上角的名字
 
 # [Navigtion]
-nav:
-  - 博客:
-    -
-  - 旅行:
-    - 家乡: trip/LH.md
-    - 河南: trip/travel.md
-  - 关于:
-    - 个人履历: about/geren.md
-    - 网站制作: about/web.md
+#nav:
+#  - 博客:
+#  - 旅行:
+#    - 家乡: trip/LH.md
+#    - 河南: trip/travel.md
+#  - 关于:
+#    - 个人履历: about/geren.md
+#    - 网站制作: about/web.md
 
 
 
@@ -99,36 +98,36 @@ extra:
 
 plugins:
   - search
-  - tags  #标签
-markdown_extensions:
-  - abbr
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
-  - md_in_html
-  - pymdownx.arithmatex:  # latex支持
-      generic: true
-  - toc:
-      permalink: true # 固定标题位置为当前位置
-  - pymdownx.highlight: # 代码块高亮
-      anchor_linenums: true
-      # linenums: true # 显示行号
-      # auto_title: true # 显示编程语言名称
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.superfences # 代码块高亮插件
-  - meta # 支持Markdown文件上方自定义标题标签等
+#  - tags  #标签
+#markdown_extensions:
+#  - abbr
+#  - pymdownx.caret
+#  - pymdownx.mark
+#  - pymdownx.tilde
+#  - md_in_html
+#  - pymdownx.arithmatex:  # latex支持
+#      generic: true
+#  - toc:
+#      permalink: true # 固定标题位置为当前位置
+#  - pymdownx.highlight: # 代码块高亮
+#      anchor_linenums: true
+#      # linenums: true # 显示行号
+#      # auto_title: true # 显示编程语言名称
+#  - pymdownx.inlinehilite
+#  - pymdownx.snippets
+#  - pymdownx.superfences
+#  - attr_list
+#  - pymdownx.emoji:
+##      emoji_index: !!python/name:materialx.emoji.twemoji
+##      emoji_generator: !!python/name:materialx.emoji.to_svg
+#  - pymdownx.superfences # 代码块高亮插件
+#  - meta # 支持Markdown文件上方自定义标题标签等
 
-extra_javascript:
-  - javascripts/extra.js
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+#extra_javascript:
+#  - javascripts/extra.js
+#  - javascripts/mathjax.js
+#  - https://polyfill.io/v3/polyfill.min.js?features=es6
+#  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
   - stylesheets/extra.css
 
